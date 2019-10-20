@@ -1,0 +1,61 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media print {
+    @page {
+      margin: 0;
+    }
+  
+    html {
+      margin: 0pt;
+      padding: 0pt;
+    }
+  
+    body {
+      border: none;
+    }
+  }
+
+body {
+  margin: auto;
+  margin-top: 5pt;
+  padding: 5pt; 
+  width: 8.5in;
+  height: 11.0in;
+  border: black solid 1pt;
+  box-sizing: border-box;
+}
+
+#header {
+  border-bottom: black 1pt solid;
+  padding-bottom: 10pt;
+}
+
+#headerTable{
+  table-layout: fixed;
+  width: 100%;
+}
+
+#headerTable td {
+  text-align: center;
+  width: 33%;
+}
+
+
+.sectionHeader {
+  color:blue;
+  border-bottom: black 1pt solid;
+}
+
+.subsectionHeader {
+  color:black;
+}
+
+.dateColumn {
+  white-space: nowrap;
+  display:flex;
+}

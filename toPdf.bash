@@ -1,0 +1,1 @@
+google-chrome --headless --disable-gpu --print-to-pdf=resume.pdf file:///home/luke/Coding/Resume/resume.html

