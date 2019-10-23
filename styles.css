@@ -23,16 +23,15 @@
 body {
   margin: auto;
   margin-top: 5pt;
-  padding: 5pt; 
+  padding: 10pt; 
   width: 8.5in;
-  height: 11.0in;
+  height: 10.9in;
   border: black solid 1pt;
   box-sizing: border-box;
 }
 
 #header {
-  border-bottom: black 1pt solid;
-  padding-bottom: 10pt;
+  padding-bottom: 6pt;
 }
 
 #headerTable{
@@ -47,7 +46,7 @@ body {
 
 
 .sectionHeader {
-  color:blue;
+  color: #4287f5;
   border-bottom: black 1pt solid;
 }
 
@@ -58,4 +57,9 @@ body {
 .dateColumn {
   white-space: nowrap;
   display:flex;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
 }
