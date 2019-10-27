@@ -23,7 +23,9 @@
 body {
   margin: auto;
   margin-top: 5pt;
+  margin-bottom: 5pt;
   padding: 10pt; 
+  padding-top: 5pt;
   width: 8.5in;
   height: 10.9in;
   border: black solid 1pt;
@@ -31,7 +33,7 @@ body {
 }
 
 #header {
-  padding-bottom: 6pt;
+  padding-bottom: 5pt;
 }
 
 #headerTable{
@@ -57,6 +59,13 @@ body {
 .dateColumn {
   white-space: nowrap;
   display:flex;
+  float: right;
+}
+
+.dateColumn br {
+  white-space: nowrap;
+  display:flex;
+  float: right;
 }
 
 .link {
