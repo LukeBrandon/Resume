@@ -2,5 +2,5 @@
 
 To convert to pdf run the following command:
 ```
-sudo rm -rf /
+toPdf.bash
 ```
