@@ -1,4 +1,4 @@
-#Resume for Luke Brandon
+## Resume for Luke Brandon
 
 To convert to pdf run the following command:
 ```
