@@ -18,7 +18,7 @@
     body {
       border: none;
     }
-  }
+}
 
 body {
   margin: auto;
@@ -32,24 +32,10 @@ body {
   box-sizing: border-box;
 }
 
-#header {
-  padding-bottom: 5pt;
-}
-
-#headerTable{
-  table-layout: fixed;
-  width: 100%;
-}
-
-#headerTable td {
-  text-align: center;
-  width: 33%;
-}
-
-
 .sectionHeader {
   color: #4287f5;
   border-bottom: black 1pt solid;
+  margin-bottom: 8px;
 }
 
 .subsectionHeader {

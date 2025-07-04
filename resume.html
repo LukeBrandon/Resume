@@ -4,59 +4,47 @@
 	<title>Luke Brandon's Resume</title>
 </head>
 
-<body>
-	<div id="header">
-		<table id="headerTable">
-			<tr>
-				<td>
-					<h1>Luke Brandon</h1>
-				</td>
-				
-				<td style="text-align: center">
-					479-426-8685 <br>
-					3599 Ozark Acres Dr. Bentonville, AR 72713
-				</td>
-
-				<td>
-					lukebrandon68@gmail.com <br>
-					<a href="https://www.github.com/LukeBrandon" class="link">GitHub/LukeBrandon</a><br>
-					<a href="https://www.linkedin.com/in/luke-brandon-625950158/" class="link">LinkedIn/luke-brandon-625950158</a>
-				</td>
-			</tr>
-		</table>
+<body style="display: flex; flex-direction: column; gap: 16px; font-family: sans-serif;">
+	<div style="width: 100%;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h1>Luke Brandon</h1>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <p>Springdale, AR</p>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <p>lukebrandon68@gmail.com</p>
+                <a href="https://www.github.com/LukeBrandon" class="link">GitHub/LukeBrandon</a>
+                <a href="https://www.linkedin.com/in/luke-brandon-625950158/" class="link">LinkedIn/luke-brandon-625950158</a>
+            </div>
+        </div>
 	</div>
 
 	<section>
-	<h2 class="sectionHeader">Development Skills</h2>
-		<b>Web Development:  </b> ReactJS, Typescript, NextJS, HTML, CSS <br>
-		<b>Backend Development:  </b> Python, Django, Django Rest Framework, NestJS, ASP.Net, API Design, Relational Databases, MongoDB <br>
-		<b>Application Development:  </b> ElectronJS, Java <br>
-		<b>Mobile Development:  </b> Xamarin (C#), Android (Java), React Native	<br>
-		<b>General Skills:  </b> Git, Linux, Github, Github Actions, Python, AWS, Cloud Computing<br>
+        <h2 class="sectionHeader">Development Skills</h2>
+		<b>Web Development:  </b> React, Typescript, NextJS <br>
+		<b>Backend Development:  </b> Python, Django, Rust, Axum, ASP.Net, PSQL <br>
+		<b>Application Development:  </b> Electron <br> 
+		<b>Mobile Development:  </b> React Native, Xamarin (C#), Android (Java)<br>
+		<!-- <b>General Skills:  </b> Git, Linux, Github, Github Actions, Python, AWS, Cloud Computing<br> -->
 		</p>
 	</section>
 
-	<section>
-		<h2 class="sectionHeader">Education</h2>
-		<p style="float: right">December 2020 <br> GPA:  4.0</p>
-		<p><b>B.S. Computer Science</b></p>
-		<p style="margin-left: 15pt">University of Arkansas, Fayetteville, AR</p>
-		<p style="margin-left: 15pt; margin-bottom: 8pt;">Minor: Mathematics</p>
-	</section>
-
-	<section> 
+	<section style="display: flex; flex-direction: column; gap: 4px;"> 
 		<h2 class="sectionHeader">Experience</h2>
 		<table>
 			<!-- AcreTrader -->
 			<tr>
 				<td>
-					<h4 class="subsectionHeader"><b>Senior Full Stack Software Engineer at AcreTrader (Acres)</b></h4>
+					<h3 class="subsectionHeader">Senior Full Stack Software Engineer at AcreTrader (Acres)</h3>
 					<ul>
-						<li>Designed, built, supported, and documented the tool's user-facing self-service Stripe subscription service.  Served as subject matter expert for consulatation and continued development</li>
-						<li>Built and maintained a full stack geospacial web application for land analysis and portfolio management with a very high degree of ownership </li>
-						<li>Worked and collaborated with direct team as well as other teams across the organization to meet demanding deadlines and project requirements</li>
-						<li>Designed and developed APIs communicating with PostgreSQL databases based on provided constraints and project requirements</li>
-						<li>Effectively communicated with both technical and non-technical personnel regarding project status, requirements, and deadlines</li>
+						<li>Built and maintained a React geospacial application for land analysis and portfolio management</li>
+						<li>Designed, built, supported, and documented the self-service Stripe subscription system.  Served as subject matter expert for consulatation and continued development</li>
+						<li>Collabored with and mentored team members, providing feedback on system architecture, data modeling, and API design to meet the needs of users, developers, and stakeholders</li>
+						<li>Worked and collaborated with product, design, marketing, and business to deliver value to users and stakeholders with distinct metrics and goals</li>
+						<li>Designed and developed APIs for efficiently serving propietary, public, and user-generated data</li>
+						<li>Led high-risk tasks like a major framework refactor, payment migration for thousands of paying customers, and mapping library migration to meet financial and technical needs</li>
 					</ul>
 				</td>
 				<td class="dateColumn">April 2022 - Present</td>
@@ -65,40 +53,48 @@
 			<!-- Tesseract Ventures -->
 			<tr>
 				<td>
-					<h4 class="subsectionHeader"><b>Senior Full Stack Software Engineer at Tesseract Ventures</b></h4>
+					<h3 class="subsectionHeader">Senior Full Stack Software Engineer at Tesseract Ventures</h3>
 					<ul>
 						<li>Architected and built maintainable desktop applications, web dashboards, as well as scalable and containerized services from the ground up to develop the future of work 
 							and provide an iteractive and collaborate data visualization suite 
 						</li>
-						<li>Developed with modern technologies such as ReactJS, ASP.Net, Node.JS, ElectronJS, and Xamarin</li>
+						<li>Built innovative tools with technologies such as ReactJS, ElectronJS, ASP.Net, Node.JS, and Xamarin</li>
 						<li>Managed a team of developers to efficiently and effectively meet deadlines and project requirements involving
 							making dificult trade offs between goals in order to meet urgent deadlines
 						</li>
 						<li>Effectively communicated with non-technical personnel regarding project requirements and deadlines</li>
-						<li>Built and maintained a cross-platform mobile application through evolutions of the relevenat API</li>
+						<li>Built and maintained a cross-platform mobile application for provisioning user devices on-premises</li>
 						<!-- <li>Designed UI's and made data-oriented UX decisions to deliver the best experience to users</li> -->
-						<li>Developed with Augmented Reality and Virtual Reality to bring cutting edge data interaction into the third dimension</li>
+						<!-- <li>Developed with Augmented Reality and Virtual Reality to bring cutting edge data interaction into the third dimension</li> -->
 					</ul>
 				</td>
-				<td class="dateColumn">November 2020 - April 2022</td>
+				<td class="dateColumn">Nov. 2020 - April 2022</td>
 			</tr>
 
 			<!-- Amazon -->
 			<tr>
 				<td>
-					<h4 class="subsectionHeader"><b>Amazon AWS IoT Device Gateway Software Development Engineering Intern</b></h4>
+					<h3 class="subsectionHeader">AWS IoT Device Gateway Software Development Engineering Intern</h3>
 					<ul>
-						<li>Implemented distributed throttling solution using dynamic host discovery on a highly scalable
-								Java service</li>
+						<li>Implemented distributed throttling solution using dynamic host discovery on a highly scalable Java service</li>
 						<li>Gathered metrics to analyze distributed throttling performance and make better design decisions</li>
-						<li>Wrote unit tests to ensure stable functionality of code in the future and to adhere to TDD principles</li>
-						<li>Improved pub-sub client that allows publish and subscribe functionality from local machine to different 
-							environments for testing purposes</li>
+						<!-- <li>Wrote unit tests to ensure stable functionality of code in the future</li> -->
+						<li>Improved internal pub-sub client to increase productivity in testing across different environments</li>
 					</ul>
 				</td>
 				<td class="dateColumn">Summer 2019</td>
 			</tr>
 		</table>
+	</section>
+
+
+
+	<section>
+		<h2 class="sectionHeader">Education</h2>
+		<p style="float: right">December 2020 <br> GPA:  4.0</p>
+		<p><b>B.S. Computer Science</b></p>
+		<p style="margin-left: 15pt">University of Arkansas, Fayetteville, AR</p>
+		<p style="margin-left: 15pt; margin-bottom: 8pt;">Minor: Mathematics</p>
 	</section>
 
 	<!-- <section>
